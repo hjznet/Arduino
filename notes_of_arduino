@@ -1,0 +1,7 @@
+# Installing：
+
+## Arduino板子的版本：
+Arduino UNO R3
+
+## Arduino IDE（编译环境）：
+在火花空间的wiki里的下载地址：https://www.microduino.cn/download/中只有Mac OS&Windows的，没有Linux的，然后自己下下来觉得Windows太难用，又reboot使用Linux。于是自己找到官方网站：https://www.arduino.cc/，选择网页的工具栏选择software -> download转到下载页面，就是完全版https://www.arduino.cc/en/Main/Software 选择Linux 64 bits，因为是64位机，IDE版本是Arduino 1.8.7，注意安装的是Arduino IDE for Microduino & mCookie，是为单片机和mcookie组件可实验的。下载好后打开（Linux不需要驱动安装），选择Board：Arduino/Genuino Uno，选择port：Windows下是COM3/4/5/……, Linux下是/dev/tty*，各自选好对应的插了板子的端口就好
